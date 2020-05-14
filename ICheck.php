@@ -1,14 +1,8 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: phpNT - http://phpnt.com
- * Date: 29.04.2017
- * Time: 11:59
- */
 
-namespace phpnt\ICheck;
+namespace porcelanosa\ICheck;
 
-use yii\bootstrap\Html;
+use yii\bootstrap4\Html;
 use yii\helpers\Json;
 use yii\widgets\InputWidget;
 
@@ -75,7 +69,7 @@ class ICheck extends InputWidget
     public function registerScript()
     {
         $view = $this->getView();
-        $asset = ICheckAsset::register($view);
+        //$asset = ICheckAsset::register($view);
         $this->getCheckOptions();
 
         $view->registerCssFile($asset->baseUrl.'/skins/'.$this->style.'/'.$this->color.'.css');
