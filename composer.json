@@ -18,7 +18,8 @@
     ],
     "require": {
         "php": ">=7.1.0",
-        "yiisoft/yii2": "*"
+        "yiisoft/yii2": "*",
+        "bower-asset/iCheck": "*"
     },
     "autoload": {
         "psr-4": {
