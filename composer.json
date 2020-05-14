@@ -1,5 +1,5 @@
 {
-    "name": "phpnt/yii2-icheck",
+    "name": "porcelanosa/yii2-icheck",
     "description": "Yii2 ICheck",
     "keywords": ["yii2", "phpnt", "icheck"],
     "type": "yii2-extension",
@@ -17,13 +17,12 @@
         }
     ],
     "require": {
-        "php": ">=5.4.0",
-        "yiisoft/yii2": "*",
-        "bower-asset/iCheck": "*"
+        "php": ">=7.1.0",
+        "yiisoft/yii2": "*"
     },
     "autoload": {
         "psr-4": {
-            "phpnt\\ICheck\\": ""
+            "porcelanosa\\ICheck\\": ""
         }
     }
 }
