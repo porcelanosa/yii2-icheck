@@ -7,7 +7,7 @@
  * Time: 11:49
  */
 
-namespace phpnt\ICheck;
+namespace porcelanosa\ICheck;
 
 use yii\web\AssetBundle;
 
